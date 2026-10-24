@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo-buhue.png" alt="Logo de Buhue: búho sobre un mapa con antena, ubicación, teléfono y contactos" width="320">
+</p>
+
 # Buhue
 
 **BUHUÉ** significa **Base Unificada de Homologación y Ubicación de Estaciones**.
