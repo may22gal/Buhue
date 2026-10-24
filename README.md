@@ -30,6 +30,19 @@ Herramientas como Geomatrix se enfocan en localizar teléfonos. Buhue se posicio
 ## Documentación
 
 - [Modelo de negocio](docs/modelo-de-negocio.md): propuesta de valor, modelo comercial, finanzas, financiamiento, piloto, riesgos y plan inmediato.
+- [Costeo detallado](docs/modelo-de-negocio.md#l-anexo-costeo-detallado) (sección L del modelo): desarrollo por etapa, licencia anual por componente (sistema, datos, respaldo, mantenimiento, seguridad, actualizaciones, soporte y capacitación), personas, nube, equipo, piloto por semana, primer año mes por mes y costo por sábana.
+
+## Precios propuestos
+
+Ilustrativos y con IVA, por validar con la Fiscalía:
+
+| Concepto | Precio |
+| --- | --- |
+| Piloto de 8 semanas con las 6 personas analistas | $116,000, una vez |
+| Implementación y capacitación | $174,000, una vez |
+| Licencia anual, con una versión nueva cada 6 meses | $696,000 al año, unos $58,000 al mes |
+
+Nunca se cobra por consulta, por persona investigada ni por resultado.
 
 ## Estado
 
