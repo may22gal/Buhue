@@ -65,7 +65,7 @@ Se pueden importar varios archivos al mismo caso; cada renglón conserva archivo
 PANTALLA c. VALIDAR
 - Resumen en tarjetas: renglones totales, válidos, con advertencia, con error.
 - Reglas: fecha inválida o imposible; renglón fuera del periodo autorizado; duplicado exacto o candidato (mismo A, B, fecha_hora y celda); número con formato incompleto; id_celda sin correspondencia en el catálogo de antenas; duración negativa o vacía en llamadas.
-- Normalización visible: números a 10 dígitos (quitar +52, 044, 045, espacios y guiones); fechas a ISO; tipo de evento a catálogo estándar; zona horaria: todo se muestra en hora de Ciudad Juárez (America/Ciudad_Juarez). Si el Operador B viene en hora del centro (America/Mexico_City), conviértela y marca el renglón con la etiqueta "hora ajustada".
+- Normalización visible: números a 10 dígitos (quitar +52, 044, 045, espacios y guiones); fechas a ISO; tipo de evento a catálogo estándar; zona horaria: todo se muestra en hora de Ciudad Juárez (America/Ciudad_Juarez). Si el Operador B viene en UTC, conviértela y marca el renglón con la etiqueta "hora ajustada".
 - Tabla filtrable de problemas, cada uno con su renglón original. Acciones REVERSIBLES: "Excluir del análisis" (no borra, solo marca) y "Restaurar". Nada se elimina nunca.
 - Los renglones fuera del periodo autorizado quedan excluidos por defecto y los números de terceros se enmascaran en pantalla (ej. 656-***-**42) con opción de mostrarlos registrando el motivo en la Bitácora.
 
@@ -103,7 +103,7 @@ PANEL "FUENTE" (componente reutilizable)
 DATOS SINTÉTICOS (incluirlos en el código, ninguno real)
 - Usa solo números ficticios con el patrón 656-555-01XX y 614-555-02XX. Nombres de antenas inventados ("Celda Sintética Norte 01").
 - Archivo 1 "operador_A_sintetico.csv" (~300 renglones), hora de Ciudad Juárez, encabezados: FECHA, HORA, NUM_ORIGEN, NUM_DESTINO, TIPO, DURACION, CELDA. Formato fecha DD/MM/AAAA.
-- Archivo 2 "operador_B_sintetico.xlsx" (~200 renglones), hora del centro, encabezados: "Fecha y hora", "Telefono A", "Telefono B", "Servicio", "Segundos", "LAC-CI". Números con +52 y guiones.
+- Archivo 2 "operador_B_sintetico.xlsx" (~150 renglones), hora en UTC, encabezados: "Fecha y hora (UTC)", "Telefono A", "Telefono B", "Servicio", "Segundos", "LAC-CI". Números con +52 y guiones.
 - Número objetivo: 656-555-0100. Periodo: 1 al 10 de octubre de 2026. Que el patrón muestre 4 o 5 contactos frecuentes, 8 antenas, 2 silencios largos (uno nocturno de 6 h y otro de 14 h), 6 duplicados, 4 fechas inválidas, 10 renglones fuera del periodo y 5 celdas que no existen en el catálogo.
 - Catálogo de antenas sintético con 8 celdas en Ciudad Juárez (coordenadas aproximadas inventadas dentro de la ciudad) marcado como "Catálogo sintético v0.1".
 - Botones para descargar ambos archivos de ejemplo desde la pantalla Importar.
