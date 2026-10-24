@@ -1,5 +1,7 @@
 # Buhue
 
+**BUHUÉ** significa **Base Unificada de Homologación y Ubicación de Estaciones**.
+
 Plataforma mexicana para el análisis de registros telefónicos (sábanas) en instituciones de justicia.
 
 Buhue importa las sábanas que entregan los operadores, las valida y normaliza, ordena los eventos por cronología, calcula frecuencias de números y antenas, ubica las antenas cuando existe un catálogo autorizado y arma la ficha institucional. Cada cifra de la ficha queda ligada al renglón original del que salió, para que el análisis sea verificable.
