@@ -1,5 +1,7 @@
 # Buhue
 
+**BUHUÉ** significa **Base Unificada de Homologación y Ubicación de Estaciones**.
+
 Plataforma mexicana para el análisis de registros telefónicos (sábanas) en instituciones de justicia.
 
 Buhue importa las sábanas que entregan los operadores, las valida y normaliza, ordena los eventos por cronología, calcula frecuencias de números y antenas, ubica las antenas cuando existe un catálogo autorizado y arma la ficha institucional. Cada cifra de la ficha queda ligada al renglón original del que salió, para que el análisis sea verificable.
@@ -16,6 +18,10 @@ Herramientas como Geomatrix se enfocan en localizar teléfonos. Buhue se posicio
 - Trazabilidad: todo dato mostrado se puede rastrear a su fuente.
 - Privacidad: el prototipo trabaja solo con datos sintéticos. Los datos institucionales requieren autorización escrita y un entorno aprobado.
 - Configuración en lugar de reprogramación: formatos de operador, plantillas de ficha, catálogos y roles.
+
+## Instrucciones para las IA del equipo
+
+**Queremos que BUHUÉ sea lo más innovador posible, con utilidad real, seguridad y una demo que funcione.** Antes de proponer o implementar, lee [AGENTS.md](AGENTS.md). Ahí están el criterio de innovación, las ideas diferenciadoras, la priorización MoSCoW y los límites del MVP. Para Claude, consulta también [CLAUDE.md](CLAUDE.md).
 
 ## Documentación
 
